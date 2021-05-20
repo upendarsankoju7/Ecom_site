@@ -1,0 +1,715 @@
+/*header section*/
+* {
+    box-sizing: border-box;
+}
+
+
+#main
+{
+		background:#F1F3F6;
+		font-family: 'Bubblegum Sans', cursive;
+}
+.container-fluid
+{
+	overflow:hidden;
+}
+.col-lg-1
+{
+	margin:auto;
+}
+.headerimg img
+{
+	width:60px;
+	height:45px;
+	margin-left:20px;;
+}
+
+.menu
+{
+	color:white;
+	margin-top:20px;
+	background:#051f2d;
+}
+.dropdown-menu
+{
+	background:#051f2d;
+}
+.dropdown-menu a
+{
+	color:white;
+}
+.logo
+{
+	margin-left:50px;
+}
+.logo a:hover
+{
+	color:white;
+	text-decoration:none;
+}
+form.productsearch input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border:none;
+	border-radius:5px 0px 0px 5px;
+    float: left;
+    width: 85%;
+    background: #f1f1f1;
+	outline:none;
+}
+
+form.productsearch button {
+    float: left;
+    border-radius:0px 5px 5px 0px;
+	width: 15%;
+    padding: 6px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border:none;
+    border-left: none;
+    cursor: pointer;
+}
+.navbar li
+{
+	padding-left:20px;
+}
+
+.navbar li a:hover
+{
+	text-decoration:underline;
+}
+.usericons
+{
+	text-align:center;
+}
+.usericons a
+{
+	color:white;
+	padding-left:20px;
+	font-size:18px;
+	
+}
+.metalcol
+{
+	background:#F1F3F6;
+}
+.metaloffer
+{
+	margin-top:30px;
+}
+
+.contentsection1
+{
+	margin-top:30px;
+}
+
+
+
+.col-lg-3 .active
+{
+	background:#e8e9ea;
+	border:0;
+	color:black;
+}
+
+.offer1
+{
+	max-width:100%;
+	background-image:url("../images/offerimg111.jpg");
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.offer1 p
+{
+	text-align:center;
+	color:grey;
+	opacity:0.9;
+	font-weight:bold;
+	font-size:20px;
+}
+.offer1 span
+{   
+	color:#631515;
+	font-size:26px;
+	text-align:center;
+}
+.about img
+{
+	width:100px;
+	height:100px;
+}
+.about
+{
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+	/*background-image:radial-gradient(#cfd9df , #e2ebf0);*/
+	padding:20px;
+	color:#384a68;
+	
+
+}
+.aboutcontent h1
+{
+	font-size:64px;
+}
+.aboutcontent h2
+{
+	font-size:32px;
+}
+.aboutcontent p
+{
+	font-size:20px
+}
+.productsection1
+{
+	margin-top:30px;
+}
+.offerimg3
+{
+	background-image:url("../images/offerimg4.jpg");
+	min-height:450px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+}
+.offerimg3 h2
+{
+padding-top:140px;
+padding-left:90px;
+color:white;
+font-weight:bold
+}
+.products
+{
+	margin:auto;
+}
+.productslide 
+{
+	font-size:22px;
+}
+.card
+{
+	border:none;
+}
+.card:hover
+{
+	box-shadow:0 0 30px rgba(0,0,0,0.3);
+	transition-duration:0.5s;
+}
+
+
+.pridebanner
+{
+	margin-left:100px;
+}
+.img-top-1
+{
+	margin-bottom:44px;
+}
+.toprated hr
+{
+	border:1px solid red;
+}
+.blog hr
+{
+	border:1px solid red;
+}
+.media
+{
+	margin-top:50px;
+	
+}
+.media img
+{
+	width:120px;
+	height:100px;
+}
+.media img:hover
+{
+	transform:scale(1.2);
+	transition-duration:0.5s;
+}
+.blog
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.blogcard
+{
+width:100%;	
+}
+
+
+.card-title
+{
+	color:#47020d;
+}
+.blogcard3
+{
+	margin-left:0px;
+}
+
+.blogcard3 img
+{
+	width:200px; 
+	height:200px;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.blogcard3 .card-body
+{
+	text-align:center;
+	margin-bottom:20px;
+}
+.fa-circle
+{
+	padding:5px;
+	padding-top:10px;
+}
+.specialitycontent
+{
+	
+	background:white;
+	padding:15px;
+	border-radius:20px;
+
+}
+
+.newsletter
+{
+	background:#032235;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
+.newsletter input
+{
+	border-radius:20px;
+	width:35%;
+	height:36px;
+	margin-top:20px;
+	background-image:url("../images/email1.png");
+	background-repeat:no-repeat;
+	background-size:20px 20px;
+	background-position:right;
+	outline:none;
+}
+
+	
+	
+	
+}
+.col-lg-1
+{
+	margin:auto;
+}
+.brandimg img
+{
+	width:120px;
+	height:80px;
+	margin:20px;
+	
+}
+.footer1
+{
+	background:#032235;
+	color:white;
+	padding:20px;
+	margin-top:40px;
+}
+
+.appstore img
+{
+	width:140px;
+	height:40px;
+	margin:10px;
+	
+}
+.footer2
+{
+	background:#030e14;
+	color:white;
+	padding:30px;	
+}
+.footer2 ul
+{
+	list-style:none;
+	
+}
+.footer2 ul li
+{
+	padding:5px;
+}
+.footer2 input
+{
+	border-radius:20px;
+	width:240px;
+	outline:none;
+}
+.footerhr
+{
+	margin-top:40px;
+	border-top:1px inset white;
+}
+
+
+/*product1 page section*/
+/*.shareicons i
+{ margin-top:16px;
+	border-radius:60%;
+	box-shadow:8px 8px 16px rgba(0,0,0,0.7);
+	padding:15px;
+*/
+.thumbnail
+{
+	width:140px;
+	height:140px;
+	box-shadow:0 0 8px rgba(0,0,0,0.5);
+	margin:5px;
+}
+.col-lg-7 p
+{
+	font-size:18px;
+}
+.pdps p
+{
+	font-size:18px;
+}
+.des h4
+{
+	text-decoration:underline;
+}
+.des p
+{ border:1px solid black;
+padding:20px;
+font-size:20px;
+}
+.des p span
+{
+	color:grey;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/************Media Queries*****************/
+@media only screen and (min-width:768px) and (max-width:992px)
+{
+	.products
+{
+	margin:0;
+}
+	.newsletter input
+{
+	
+	width:70%;
+	
+}
+.speciality
+{
+	margin-top:15px;
+}
+	
+	.pridebanner
+{
+	margin-left:0px;
+	margin-bottom:20px;
+}
+.offerimg3 h2
+{
+display:none;
+}
+.smallbanner1
+{
+	margin-bottom:15px;
+}
+.metaloffer
+{
+	margin-top:30px;
+	margin-left:20%;
+}
+.about
+{
+	padding:20px;
+}
+.aboutcontent h1
+{
+	font-size:50px;
+}
+.aboutcontent h2
+{
+	font-size:28px;
+}
+.aboutcontent p
+{
+	font-size:20px
+}
+.offer1
+{
+	display:none;
+}
+
+}
+
+
+
+@media only screen and (min-width:576px) and (max-width:768px)
+{
+	
+	.brandimg
+{
+
+	margin:0px;
+	
+}
+	
+		.newsletter input
+{
+	
+	width:100%;
+	
+}
+.speciality
+{
+	margin-top:15px;
+}
+.pridebanner
+{
+	margin-left:0px;
+	margin-bottom:20px;
+}
+.offerimg3 h2
+{
+display:none;
+}
+
+
+.smallbanner1
+{
+	margin-bottom:15px;
+}
+.metaloffer
+{
+	margin-top:30px;
+	margin-left:5%;
+	
+}
+.about
+{
+	padding:20px;
+}
+.aboutcontent h1
+{
+	font-size:40px;
+}
+.aboutcontent h2
+{
+	font-size:24px;
+}
+.aboutcontent p
+{
+	font-size:20px
+}	
+	.offer1
+{
+	display:none;
+}
+.offerexpire
+{
+	display:none;
+}
+
+.contentsection3 p
+{
+	text-align:center;
+}
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:576px)
+{
+.newsletter input
+{
+	
+	width:100%;
+	
+}
+
+.brandimg img
+{
+	width:120px;
+	height:80px;
+	margin:0px;
+	margin-top:10px;
+	
+}
+	.products
+{
+	margin:0;
+}
+.speciality
+{
+	margin-top:15px;
+}
+.pridebanner
+{
+	margin-left:0px;
+	margin-bottom:20px;
+}
+
+.smallbanner1
+{
+	margin-bottom:15px;
+}
+.metaloffer
+{
+	margin-top:0px;
+	
+}
+.metalcol
+{
+	background:white;
+}
+.card
+{
+	margin:auto;
+}
+.card
+{
+	width:100%;
+}
+.card-img-top
+{
+	height:180px;
+	width:160px;
+	margin:auto;
+}
+.about
+{
+	padding:20px;
+}
+.aboutcontent h1
+{
+	font-size:32px;
+}
+.aboutcontent h2
+{
+	font-size:20px;
+}
+.aboutcontent p
+{
+	font-size:16px
+}	
+.about h3
+{
+	display:none;
+}
+.logo
+{
+	margin-left:20px;
+}
+	.offer1
+{
+	display:none;
+}
+.homedecor
+{
+	margin-bottom:10px;
+}
+.contentsection3 p
+{
+	text-align:center;
+}
+.usericons
+{
+	text-align:left;
+}
+.carouselbelow1
+{
+	display:none;
+}
+.carouselimg
+{
+	height:160px;
+}
+.carouselbelow2
+{
+	height:170px;
+	width:100%;
+}
+.offerexpire
+{
+	display:none;
+}
+.homedecor
+{   
+	width:100%;
+}
+
+.banner2
+{
+	width:100%;
+}
+.thumbnail
+{
+	width:100px;
+	height:100px;
+}
+.offerimg3 h2
+{
+padding-top:120px;
+padding-left:40px;
+color:white;
+font-weight:bold
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:470px)
+{
+
+.headerimg img
+{
+	width:50px;
+	height:40px;
+	margin-left:0px;;
+}
+.about img
+{
+	width:60px;
+	height:60px;
+}
+.homedecor
+{   
+	width:100%;
+	height:100px;
+}
+.carouselbelow2
+{
+	height:120px;
+	width:100%;
+}
+.productsection h2
+{
+	font-size:26px;
+}
+.newsletter h2
+{
+	font-size:22px;
+}
+.newsletter span
+{
+	font-size:25px;
+}
